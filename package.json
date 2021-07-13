@@ -1,0 +1,35 @@
+{ "name": "schema-org-graph-diver-pmb",
+  "version": "0.1.0",
+  "description": "Dive into dictionaries and verify each level's @type.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/schema-org-graph-diver-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/schema-org-graph-diver-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/schema-org-graph-diver-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "dive.mjs",
+  "type": "module",
+  "exports": "dive.mjs",
+  "scripts": { "test": "nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.2.0",
+    "nodemjs": "^0.1.9"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
