@@ -1,5 +1,5 @@
 { "name": "schema-org-graph-diver-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dive into dictionaries and verify each level's @type.",
   "keywords": [],
 
